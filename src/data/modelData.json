@@ -1,0 +1,17 @@
+{
+    "class": "GraphLinksModel",
+    "linkKeyProperty": "key",
+    "nodeDataArray": [
+        {
+            "key": 0,
+            "value": "Alpha",
+            "loc": "0 0",
+            "x": 0,
+            "y": 0,
+            "location": "root",
+            "hasLeft": false,
+            "hasRight": false
+        }
+    ],
+    "linkDataArray": []
+}
