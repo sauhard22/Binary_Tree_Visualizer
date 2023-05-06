@@ -278,7 +278,7 @@ function App() {
 
       //Adding New Node
       diagram.startTransaction("Add Node");
-      var newnode = { key: data.key * 2 + 1, value: "N", parent: data.value, loc: loc, x: currX, y: currY, location: "left", hasLeft: false, hasRight: false };
+      var newnode = { key: data.key * 2 + 1, value: data.key* 2 + 1, parent: data.value, loc: loc, x: currX, y: currY, location: "left", hasLeft: false, hasRight: false };
       var linkData = { from: data.key, to: data.key * 2 + 1 }
       diagram.model.addNodeData(newnode);
       diagram.model.addLinkData(linkData);
@@ -305,7 +305,7 @@ function App() {
 
       //Adding New Node
       diagram.startTransaction("Add Node");
-      var newnode = { key: data.key * 2 + 2, value: "N", parent: data.value, loc: loc, x: currX, y: currY, location: "right" };
+      var newnode = { key: data.key * 2 + 2, value: data.key* 2 + 2, parent: data.value, loc: loc, x: currX, y: currY, location: "right" };
       var linkData = { from: data.key, to: data.key * 2 + 2 }
       diagram.model.addNodeData(newnode);
       diagram.model.addLinkData(linkData);
